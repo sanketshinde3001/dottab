@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DotTab Guide — every feature, explained</title>
+<meta name="description" content="How to use DotTab: edit the grid, presets and share codes, the command palette, themes, all 28 widgets, the pixel pet, keyboard shortcuts, backups and privacy.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="site.css">
+</head>
+<body class="has-sidebar">
+<nav class="nav nav--top">
+  <a class="brand" href="./"><img src="img/icon.png" alt=""><span>DotTab</span></a>
+  <div><a class="link" href="./">Home</a><a class="link" href="privacy.html">Privacy</a><a class="link" href="https://buymeacoffee.com/sanketshinde">Support</a></div>
+</nav>
+
+<div class="layout">
+  <aside class="side">
+    <span class="side__title">Guide</span>
+    <a href="#start">Getting started</a>
+    <a href="#edit">Editing the grid</a>
+    <a href="#presets">Presets &amp; share codes</a>
+    <a href="#palette">Command palette</a>
+    <a href="#look">Appearance &amp; focus</a>
+    <span class="side__title">Widgets</span>
+    <a href="#time">Time</a>
+    <a href="#planning">Planning</a>
+    <a href="#focus">Focus</a>
+    <a href="#info">Info</a>
+    <a href="#fun">Fun</a>
+    <span class="side__title">More</span>
+    <a href="#pet">The pixel pet</a>
+    <a href="#keys">Keyboard</a>
+    <a href="#data">Your data</a>
+    <a href="#faq">FAQ</a>
+  </aside>
+
+  <main class="doc">
+    <span class="kicker">Guide</span>
+    <h1 style="font-size:clamp(2.25rem,5vw,3.75rem)">Everything DotTab does<i>.</i></h1>
+    <p class="lead">Five minutes to read. Nothing here is required — a new tab works the moment you install. This is for when you want to make it yours.</p>
+
+    <section id="start">
+      <h2>Getting started</h2>
+      <p>Install from the Chrome Web Store and open a new tab. You'll see the <b>Dashboard</b> preset: greeting, clock, search, tasks, weather, a quote. Chrome shows a small bar asking if you want to keep the new tab — say yes.</p>
+      <figure><img src="img/dashboard-dark.png" alt="Default dashboard"><figcaption>The default Dashboard preset.</figcaption></figure>
+      <div class="keys"><span><b>E</b> edit the grid</span><span><b>,</b> settings</span><span><b>Ctrl K</b> palette</span></div>
+      <p>Type your name once in <em>Settings → Widgets → Greeting</em> and it greets you by time of day.</p>
+    </section>
+
+    <section id="edit">
+      <h2>Editing the grid</h2>
+      <p>Press <b>E</b> (or the pencil button, bottom right). Every widget grows a thin outline:</p>
+      <ul>
+        <li><b>Move</b> — drag anywhere on a widget. It snaps to the grid.</li>
+        <li><b>Resize</b> — pull the handle at the bottom-right corner.</li>
+        <li><b>Remove</b> — the × in the top-right corner.</li>
+        <li><b>Configure</b> — the ⚙ opens that widget's own settings.</li>
+      </ul>
+      <p>The grid is 32 columns wide and scales with the window, so the layout you build on a laptop looks the same on a 4K monitor. Narrow windows (under 768 px) fold into a single scrolling column.</p>
+      <figure><img src="img/edit-mode.png" alt="Edit mode"><figcaption>Edit mode. Esc or the Done pill leaves it.</figcaption></figure>
+      <p>Adding a widget from Settings drops it into free space and keeps edit mode on, so you can drag it where you want right away.</p>
+    </section>
+
+    <section id="presets">
+      <h2>Presets &amp; share codes</h2>
+      <p><em>Settings → Layouts</em> has five starting points: <b>Dashboard</b>, <b>Minimal</b>, <b>Productivity</b>, <b>Playground</b> and <b>Everything</b> (all 28 widgets on one screen — needs a big monitor).</p>
+      <figure><img src="img/settings-layouts.png" alt="Layouts tab"><figcaption>Layouts tab. Presets replace your current grid; you'll be asked to confirm.</figcaption></figure>
+      <p><b>Share codes</b> turn your whole layout into a short string that starts with <code>MD1.</code> Copy it, send it to a friend, paste it into their Layouts tab. Widget settings travel with it; your notes and tasks don't.</p>
+    </section>
+
+    <section id="palette">
+      <h2>Command palette</h2>
+      <p><b>Ctrl K</b> (⌘ K on Mac) opens one box that does most things:</p>
+      <figure><img src="img/palette.png" alt="Command palette"><figcaption>Bangs search a site directly.</figcaption></figure>
+      <ul>
+        <li><b>Search</b> — type and press Enter to search with your default engine.</li>
+        <li><b>Bangs</b> — <code>!yt nothing phone</code> searches YouTube. Also <code>!g !gh !w !r !x !maps !npm !mdn !a !ddg</code>.</li>
+        <li><b>Maths</b> — <code>2^10/3</code> shows the answer; Enter copies it.</li>
+        <li><b>URLs</b> — anything that looks like a domain opens directly.</li>
+        <li><b>Commands</b> — "Add Weather", "Pomodoro settings", "Toggle dark / light", "Reset layout"… start typing.</li>
+      </ul>
+    </section>
+
+    <section id="look">
+      <h2>Appearance &amp; focus</h2>
+      <figure><img src="img/settings-appearance.png" alt="Appearance tab"></figure>
+      <ul>
+        <li><b>Theme</b> — dark (true black, good for OLED) or light. <b>T</b> flips it.</li>
+        <li><b>Background</b> — plain, a colour, or your own photo.</li>
+        <li><b>Surface</b> — how widgets sit on the page: <em>None</em> lets content float, <em>Outline</em> draws a thin border (default), <em>Card</em> fills each widget.</li>
+        <li><b>Dot grid</b> — show the grid dots behind everything.</li>
+        <li><b>Focus mode</b> — <b>F</b> hides everything except clocks, timers and your intention. Good for deep work.</li>
+      </ul>
+      <figure><img src="img/light-theme.png" alt="Light theme"><figcaption>Light theme, Productivity preset.</figcaption></figure>
+    </section>
+
+    <section id="time">
+      <h2>Time widgets</h2>
+      <div class="wgrid">
+        <div class="wcard"><img src="img/w/greeting.png" alt=""><b>Greeting</b><p>Hello by time of day, with your name and the date. Pick which line shows.</p></div>
+        <div class="wcard"><img src="img/w/clock.png" alt=""><b>Clock</b><p>Dot-matrix time. 12/24 h, seconds, blinking colon, three typefaces, left or centred.</p></div>
+        <div class="wcard"><img src="img/w/clock-minimal.png" alt=""><b>Minimal Clock</b><p>Just the hours and minutes, as big as the widget.</p></div>
+        <div class="wcard"><img src="img/w/clock-analog.png" alt=""><b>Analog Clock</b><p>An instrument face with tick marks and a red second hand.</p></div>
+        <div class="wcard"><img src="img/w/clock-dot-matrix.png" alt=""><b>LED Clock</b><p>A dot-matrix LED panel. Dot size and spacing are adjustable.</p></div>
+        <div class="wcard"><img src="img/w/date.png" alt=""><b>Date</b><p>Today as a hero number with weekday and month.</p></div>
+        <div class="wcard"><img src="img/w/calendar.png" alt=""><b>Calendar</b><p>Month grid with today inverted. Week starts Monday or Sunday.</p></div>
+        <div class="wcard"><img src="img/w/world-clock.png" alt=""><b>World Clock</b><p>Any cities you like, with the offset from you. Add as many rows as fit.</p></div>
+        <div class="wcard"><img src="img/w/countdown.png" alt=""><b>Countdown</b><p>Days (and hours) until a date you name — a launch, a trip, the new year.</p></div>
+        <div class="wcard"><img src="img/w/year-progress.png" alt=""><b>Progress</b><p>How much of the year, month, week or day is gone. Segments or year-in-dots.</p></div>
+      </div>
+    </section>
+
+    <section id="planning">
+      <h2>Planning widgets</h2>
+      <div class="wgrid">
+        <div class="wcard"><img src="img/w/todo.png" alt=""><b>Tasks</b><p>A short list. Enter adds, tick to strike through, done items can auto-clear.</p></div>
+        <div class="wcard"><img src="img/w/notes.png" alt=""><b>Notes</b><p>A scratchpad that autosaves as you type. Word count in the corner.</p></div>
+        <div class="wcard"><img src="img/w/habit.png" alt=""><b>Habit</b><p>One habit, a dot for every day you show up, streak up top. Edit past days if you forgot.</p></div>
+      </div>
+    </section>
+
+    <section id="focus">
+      <h2>Focus widgets</h2>
+      <div class="wgrid">
+        <div class="wcard"><img src="img/w/pomodoro.png" alt=""><b>Pomodoro</b><p>25/5 by default, long break every four. Keeps running across new tabs and restarts.</p></div>
+        <div class="wcard"><img src="img/w/breathe.png" alt=""><b>Breathe</b><p>Box breathing (4·4·4·4), 4-7-8, or your own timing. Tap to start.</p></div>
+        <div class="wcard"><img src="img/w/intention.png" alt=""><b>Intention</b><p>One line for today. Resets tomorrow.</p></div>
+      </div>
+    </section>
+
+    <section id="info">
+      <h2>Info widgets</h2>
+      <div class="wgrid">
+        <div class="wcard"><img src="img/w/search.png" alt=""><b>Search</b><p>Google, DuckDuckGo, Bing, Brave or your own. URLs open directly. <b>/</b> focuses it.</p></div>
+        <div class="wcard"><img src="img/w/weather.png" alt=""><b>Weather</b><p>Live from Open-Meteo. Your location (asks once) or a city you type. °C/°F, details, hourly strip.</p></div>
+        <div class="wcard"><img src="img/w/headlines.png" alt=""><b>Headlines</b><p>Hacker News top, new, best, ask or show. Opens the link or the comments.</p></div>
+        <div class="wcard"><img src="img/w/ticker.png" alt=""><b>Ticker</b><p>Crypto prices from CoinGecko with 24 h change. Choose the coins and currency.</p></div>
+        <div class="wcard"><img src="img/w/quote.png" alt=""><b>Quote</b><p>One line to think about. Rotates daily or on every new tab.</p></div>
+        <div class="wcard"><img src="img/w/shortcuts.png" alt=""><b>Shortcuts</b><p>One icon per site. Brand icons for the big ones, favicons for the rest.</p></div>
+        <div class="wcard wcard--text"><b>Top Sites</b><p>Your most-visited sites as icons. Asks for the <code>topSites</code> permission only when you add it.</p></div>
+      </div>
+    </section>
+
+    <section id="fun">
+      <h2>Fun widgets</h2>
+      <div class="wgrid">
+        <div class="wcard"><img src="img/w/snake.png" alt=""><b>Snake</b><p>Dot-matrix snake. Click the board, arrows or WASD. Best score is kept.</p></div>
+        <div class="wcard"><img src="img/w/tetris.png" alt=""><b>Tetris</b><p>Arrows move and rotate, Space hard-drops, C holds. Next piece preview.</p></div>
+        <div class="wcard"><img src="img/w/typing.png" alt=""><b>Typing Test</b><p>15, 30 or 60 seconds of common words. WPM and accuracy, best kept per length.</p></div>
+        <div class="wcard"><img src="img/w/decide.png" alt=""><b>Decide</b><p>Coin, dice, or pick from a list you type. For when you can't.</p></div>
+        <div class="wcard"><img src="img/w/pixel-pet.png" alt=""><b>Pixel Pet</b><p>A little creature on a dot grid. Feed it, pet it, let it sleep. Food and mood bars drain over time.</p></div>
+      </div>
+      <figure><img src="img/playground.png" alt="Playground preset"><figcaption>The Playground preset.</figcaption></figure>
+    </section>
+
+    <section id="pet">
+      <h2>The pixel pet</h2>
+      <p>Separate from the Pixel Pet widget, a tiny bot walks along the tops of your widgets, swings between them on a web, and occasionally says something. Click anywhere on the canvas and it walks there. It remembers where it was standing, so a new tab starts it in the same place.</p>
+      <figure><img src="img/settings-pet.png" alt="Pet settings"><figcaption>Settings → Pet: turn it off, mute the speech bubbles, or give it a colour. White means "match the theme".</figcaption></figure>
+    </section>
+
+    <section id="keys">
+      <h2>Keyboard</h2>
+      <table>
+        <tr><th>Key</th><th>Does</th></tr>
+        <tr><td><b>Ctrl / ⌘ K</b></td><td>Command palette</td></tr>
+        <tr><td><b>E</b></td><td>Toggle edit mode</td></tr>
+        <tr><td><b>,</b> or <b>.</b></td><td>Open settings</td></tr>
+        <tr><td><b>/</b></td><td>Focus the search widget</td></tr>
+        <tr><td><b>T</b></td><td>Toggle dark / light</td></tr>
+        <tr><td><b>F</b></td><td>Toggle focus mode</td></tr>
+        <tr><td><b>?</b></td><td>Shortcut list</td></tr>
+        <tr><td><b>Esc</b></td><td>Close anything / leave edit mode</td></tr>
+      </table>
+      <p class="muted">Single-key shortcuts pause while you type in a widget or play a game.</p>
+    </section>
+
+    <section id="data">
+      <h2>Your data</h2>
+      <p>Everything — layout, widget settings, tasks, notes, habits — lives in Chrome's local storage on your machine. No account, no sync server, no analytics. Removing the extension deletes it.</p>
+      <p><em>Settings → About → Your data</em> exports it all as one JSON file and imports it again on another machine or after a reinstall. Details in the <a href="privacy.html">privacy policy</a>.</p>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <p><b>Weather says "location blocked".</b> Chrome denied geolocation. Click the site-info icon in the address bar and allow it, or set a city in the widget's settings.</p>
+      <p><b>Top Sites is empty.</b> Chrome only reports sites you've visited a few times, and it needs the permission you granted when adding the widget.</p>
+      <p><b>The Pomodoro kept running after I closed the tab.</b> That's by design — it's a timer, not a tab. Reset clears it.</p>
+      <p><b>Can I get Google's new tab back without uninstalling?</b> Chrome has no toggle for that; disabling the extension in <code>chrome://extensions</code> does it and keeps your data.</p>
+      <p><b>Something's broken / I have an idea.</b> <a href="mailto:sanketshinde3123@gmail.com?subject=DotTab">Mail me</a>. One line is enough.</p>
+    </section>
+
+    <footer>
+      <span>© 2026 DotTab</span>
+      <a href="./">Home</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="https://buymeacoffee.com/sanketshinde">Support development</a>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

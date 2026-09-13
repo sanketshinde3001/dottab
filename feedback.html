@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DotTab — Report a bug or an idea</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="site.css">
+<script src="forms.js?v=2"></script>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a class="brand" href="./"><img src="img/icon.png" alt=""><span>DotTab</span></a>
+    <div><a class="link" href="guide.html">Guide</a><a class="link" href="privacy.html">Privacy</a></div>
+  </nav>
+
+  <span class="kicker">Feedback</span>
+  <h1 style="font-size:clamp(2.25rem,6vw,4rem)">Something off<i>?</i></h1>
+  <p class="lead">Bugs, ideas, a widget you wish existed. One line is enough — it lands with the person who builds this.</p>
+
+  <div id="form-slot" class="form-slot" hidden></div>
+  <div id="form-fallback" class="actions">
+    <a class="btn btn--primary" href="mailto:sanketshinde3123@gmail.com?subject=DotTab%20feedback&body=What%20happened%3A%0A%0AWhat%20I%20expected%3A%0A%0AChrome%20version%3A%20">Send an email</a>
+  </div>
+
+  <footer>
+    <span>© 2026 DotTab</span>
+    <a href="./">Home</a>
+    <a href="privacy.html">Privacy</a>
+  </footer>
+</div>
+<script>mountForm('feedback');</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DotTab — Privacy Policy</title>
+<meta name="description" content="DotTab stores everything locally in Chrome. No analytics, no account, no tracking. This page lists every network request a widget can make.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav">
+    <a class="brand" href="./"><img src="img/icon.png" alt=""><span>DotTab</span></a>
+    <div><a class="link" href="./">Home</a><a class="link" href="https://buymeacoffee.com/sanketshinde">Support</a></div>
+  </nav>
+  <div class="prose">
+<span class="kicker">Privacy policy</span>
+<h1 style="font-size:clamp(2.25rem,6vw,4rem)">Nothing leaves<br>your browser<i>.</i></h1>
+<p class="muted">Effective 12 September 2026 · Applies to the DotTab Chrome extension</p>
+
+<p>DotTab is a new tab page made of widgets. It is designed to keep your data on your device. There is no account, no analytics, no advertising and no tracking of any kind.</p>
+
+<h2>What is stored, and where</h2>
+<p>Everything you configure — your layout, widget settings, tasks, notes, habits, your name for the greeting, timer state and cached weather/news data — is saved locally using Chrome's <code>chrome.storage.local</code> on your own computer. It is never uploaded to us. Removing the extension deletes it.</p>
+
+<h2>Network requests made by widgets</h2>
+<p>DotTab does not contact any server of its own. Some widgets fetch public data directly from third-party services, only when you add that widget:</p>
+<table>
+  <tr><th>Widget</th><th>Service</th><th>What is sent</th></tr>
+  <tr><td>Weather</td><td>Open-Meteo (open-meteo.com)</td><td>Approximate coordinates of your location (if you choose "My location") or the city name you typed</td></tr>
+  <tr><td>Weather</td><td>BigDataCloud (bigdatacloud.net)</td><td>Coordinates, to display a city name when using "My location"</td></tr>
+  <tr><td>Headlines</td><td>Hacker News API (hacker-news.firebaseio.com)</td><td>Nothing personal — a request for the public story list</td></tr>
+  <tr><td>Ticker</td><td>CoinGecko (coingecko.com)</td><td>Nothing personal — the coin symbols you selected</td></tr>
+  <tr><td>Shortcuts, Top Sites</td><td>Google favicon service (google.com/s2/favicons)</td><td>The domain name of each shortcut, to fetch its icon</td></tr>
+</table>
+<p>Each of these services has its own privacy policy. Requests contain no identifiers from DotTab. You can avoid all of them by not adding the widgets above.</p>
+
+<h2>Permissions</h2>
+<ul>
+  <li><strong>storage</strong> — to save your layout and widget data locally.</li>
+  <li><strong>topSites</strong> (optional) — requested only when you add the Top Sites widget, to display your most visited sites. This list stays on your device and is never transmitted.</li>
+  <li><strong>Location</strong> — the Weather widget's "My location" mode uses the browser's geolocation prompt. You can decline and type a city instead.</li>
+</ul>
+
+<h2>What we do not do</h2>
+<ul>
+  <li>No analytics, telemetry or crash reporting.</li>
+  <li>No browsing history collection. The new tab page does not see other tabs.</li>
+  <li>No selling, sharing or transferring of data to anyone.</li>
+  <li>No remote code — all code and fonts ship inside the extension.</li>
+</ul>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be published at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:sanketshinde3123@gmail.com">sanketshinde3123@gmail.com</a></p>
+
+  </div>
+  <footer>
+    <span>© 2026 DotTab</span>
+    <a href="./">Home</a>
+    <a href="mailto:sanketshinde3123@gmail.com?subject=DotTab">Contact</a>
+  </footer>
+</div>
+</body>
+</html>
