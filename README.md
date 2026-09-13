@@ -56,4 +56,4 @@ Your layout, notes and tasks live in Chrome's local storage. No analytics, no ac
 
 <br>
 
-<p align="center"><sub>This repo is the website. Built by <a href="https://buymeacoffee.com/sanketshinde">Sanket Shinde</a>.</sub></p>
+<p align="center"><sub>Made by <a href="https://github.com/sanketshinde3001">Sanket Shinde</a> · This repo is the website · <a href="https://buymeacoffee.com/sanketshinde">Buy me a coffee</a></sub></p>
