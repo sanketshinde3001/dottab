@@ -8,7 +8,7 @@
 A minimal, dot-matrix new tab for Chrome. 28 widgets on one grid. No account, no tracking.</p>
 
 <p align="center">
-  <a href="https://chromewebstore.google.com/detail/dbknofnbondmmgikjajeggiojigehbmm">Add to Chrome</a> ·
+  <a href="https://chromewebstore.google.com/detail/dottab-minimal-new-tab-da/dbknofnbondmmgikjajeggiojigehbmm">Add to Chrome</a> ·
   <a href="https://sanketshinde3001.github.io/dottab/guide.html">Guide</a> ·
   <a href="https://sanketshinde3001.github.io/dottab/privacy.html">Privacy</a> ·
   <a href="https://buymeacoffee.com/sanketshinde">Support</a>
