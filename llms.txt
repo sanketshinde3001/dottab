@@ -1,0 +1,9 @@
+# DotTab
+
+DotTab is a free Chrome new-tab extension with a customizable dot-matrix dashboard and 28 widgets, including clock, calendar, tasks, notes, focus timer, weather, games, and a pixel pet. It needs no account and uses no analytics. Personal layout, notes, and tasks stay in Chrome local storage; widgets that show live information call their stated public APIs.
+
+- Product: https://sanketshinde3001.github.io/dottab/
+- User guide: https://sanketshinde3001.github.io/dottab/guide.html
+- Privacy policy: https://sanketshinde3001.github.io/dottab/privacy.html
+- Release notes: https://sanketshinde3001.github.io/dottab/changelog.html
+- Chrome Web Store: https://chromewebstore.google.com/detail/dottab-minimal-new-tab-da/dbknofnbondmmgikjajeggiojigehbmm
